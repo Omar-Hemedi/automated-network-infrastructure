@@ -62,6 +62,8 @@ The goal is to build a scalable, secure lab environment with real-world componen
 ├── README.md              # Project documentation
 └── LICENSE                # License file (MIT)
 
+```
+
 ## ⚙️ Getting Started
 
 ### 1. Clone the Repository
