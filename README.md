@@ -71,6 +71,7 @@ The goal is to build a scalable, secure lab environment with real-world componen
 ```bash
 git clone https://github.com/yourusername/hybrid-lab-infra.git
 cd hybrid-lab-infra
+```
 
 ### 2. Provision Virtual Machines with Terraform
 
@@ -80,6 +81,7 @@ Navigate to the `terraform` directory and initialize Terraform:
 cd terraform
 terraform init
 terraform apply
+```
 
 ### 3. Configure Servers with Ansible
 
@@ -90,12 +92,15 @@ Once the virtual machines are provisioned, use Ansible to automate the configura
 ```bash
 # 1. Navigate to the ansible directory
 cd ../ansible
+```
 
 # 2. Verify the inventory file contains the correct IP addresses
 # (Edit inventory/hosts or inventory.ini depending on your setup)
 
 # 3. Run the main playbook
+```bash
 ansible-playbook -i inventory playbooks/setup.yml
+```
 
 ### 4. Automate Network Device Configuration with Python
 
@@ -106,9 +111,12 @@ Use the provided Python scripts to automate configuration and management of Cisc
 ```bash
 # 1. Navigate to the python scripts directory
 cd ../python
+```
 
 # 2. Run the network automation script
+```bash
 python3 network_automation.py
+```
 
 ## 📈 Future Enhancements
 
